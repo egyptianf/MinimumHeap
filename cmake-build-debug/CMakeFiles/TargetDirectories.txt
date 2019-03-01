@@ -1,0 +1,3 @@
+/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug/CMakeFiles/minHeaps.dir

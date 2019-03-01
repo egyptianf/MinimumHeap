@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="minHeaps"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minHeaps">
+				<Option output="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug/minHeaps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 minHeaps"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="minHeaps/fast">
+				<Option output="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug/minHeaps" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/../../../../include/c++/8.2.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/8.2.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 minHeaps/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق\ الكلية/Codes/minHeaps/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/MinHeap.cpp">
+			<Option target="minHeaps"/>
+		</Unit>
+		<Unit filename="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/MinHeap.h">
+			<Option target="minHeaps"/>
+		</Unit>
+		<Unit filename="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/Node.cpp">
+			<Option target="minHeaps"/>
+		</Unit>
+		<Unit filename="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/Node.h">
+			<Option target="minHeaps"/>
+		</Unit>
+		<Unit filename="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/main.cpp">
+			<Option target="minHeaps"/>
+		</Unit>
+		<Unit filename="/home/nerdo/FCI-3Y-2S/ALGORITHMS/مساق الكلية/Codes/minHeaps/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

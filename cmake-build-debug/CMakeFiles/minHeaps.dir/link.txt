@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/minHeaps.dir/main.cpp.o CMakeFiles/minHeaps.dir/MinHeap.cpp.o CMakeFiles/minHeaps.dir/Node.cpp.o  -o minHeaps 
