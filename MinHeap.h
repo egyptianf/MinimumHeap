@@ -13,6 +13,7 @@ public:
     MinHeap();
     void insert(int );
     void print();
+    int getMinimum();
 };
 
 

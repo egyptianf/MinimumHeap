@@ -37,3 +37,7 @@ void MinHeap::print() {
     for(std::vector<int>::iterator it = myArray.begin(); it != myArray.end(); ++it)
         std::cout << *it << " ";
 }
+
+int MinHeap::getMinimum() {
+    return myArray[0];
+}
