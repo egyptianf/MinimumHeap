@@ -5,11 +5,14 @@
 #ifndef MINHEAPS_MINHEAP_H
 #define MINHEAPS_MINHEAP_H
 #include <iostream>
+#include <vector>
 class MinHeap {
 private:
+    std::vector<int> myArray;
 public:
     MinHeap();
     void insert(int );
+    void print();
 };
 
 
