@@ -27,6 +27,8 @@ int main() {
     std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
     minheap->pop();
     std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
+    minheap->insert(0);
+    std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
     std::cout << "Hello, World!" << std::endl;
 
 

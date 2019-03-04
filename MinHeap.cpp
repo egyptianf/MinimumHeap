@@ -50,13 +50,14 @@ int MinHeap::pop() {
     myArray.erase(myArray.end()-1);
 
     int i = 0;
-    int leftChild = (2*i) + 1, rightChild;
-    while(leftChild < myArray.size())
+    int leftChild, rightChild;
+    do
     {
          leftChild = (2*i) + 1;
-         rightChild = leftChild + 1;
+
          if(leftChild > myArray.size())
              break;
+        rightChild = leftChild + 1;
         //Compare with right and left children
         bool leftIsSmaller = myArray[leftChild] <= myArray[rightChild];
         if(myArray[leftChild] < myArray[i] && leftIsSmaller) {
@@ -69,7 +70,7 @@ int MinHeap::pop() {
         }
         else
             break;
-    }
+    }while(leftChild < myArray.size());
     return min;
 }
 
