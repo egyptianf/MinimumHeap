@@ -5,7 +5,7 @@ int main() {
     minheap->insert(10);
     minheap->insert(70);
     minheap->insert(50);
-    minheap->insert(60);
+    minheap->insert(0);
     minheap->insert(20);
     minheap->insert(90);
     minheap->insert(5);
@@ -17,6 +17,15 @@ int main() {
 
     //minheap->print();
 
+    minheap->pop();
+    std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
+    minheap->pop();
+    std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
+    minheap->pop();
+    std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
+    minheap->pop();
+    std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
+    minheap->pop();
     std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
     std::cout << "Hello, World!" << std::endl;
 

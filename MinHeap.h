@@ -11,9 +11,11 @@ private:
     std::vector<int> myArray;
 public:
     MinHeap();
+    void heapify();
     void insert(int );
     void print();
     int getMinimum();
+    int pop();
 };
 
 
