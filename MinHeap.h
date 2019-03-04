@@ -16,6 +16,8 @@ public:
     void print();
     int getMinimum();
     int pop();
+    unsigned long size();
+    bool isEmpty();
 };
 
 

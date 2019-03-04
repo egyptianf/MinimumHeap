@@ -72,3 +72,11 @@ int MinHeap::pop() {
     }
     return min;
 }
+
+unsigned long MinHeap::size() {
+    return myArray.size();
+}
+
+bool MinHeap::isEmpty() {
+    return myArray.empty();
+}
