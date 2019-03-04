@@ -12,7 +12,7 @@ void MinHeap::insert(int element) {
     unsigned long index;
     index = myArray.size() - 1;
 
-    //Check last added element with parents.
+    //Check last added element with its parents.
     while ((index + 1) > 0 && index != 0 ) {
         if (index % 2 == 0 ) {
             if (myArray[index] < myArray[(index / 2) - 1]) {
@@ -34,8 +34,8 @@ void MinHeap::insert(int element) {
     }
 }
 void MinHeap::print() {
-    for(std::vector<int>::iterator it = myArray.begin(); it != myArray.end(); ++it)
-        std::cout << *it << " ";
+    for(auto element: myArray)
+        std::cout << element << " ";
 }
 
 int MinHeap::getMinimum() {

@@ -1,7 +1,7 @@
 #include <iostream>
 #include "MinHeap.h"
 int main() {
-    MinHeap* minheap = new MinHeap();
+    auto* minheap = new MinHeap();
     minheap->insert(10);
     minheap->insert(70);
     minheap->insert(50);
@@ -10,10 +10,14 @@ int main() {
     minheap->insert(90);
     minheap->insert(5);
     minheap->insert(3);
+    minheap->insert(10);
+    minheap->insert(1);
+    minheap->insert(99);
+    minheap->insert(210);
 
-    minheap->print();
+    //minheap->print();
 
-
+    std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
     std::cout << "Hello, World!" << std::endl;
 
 
