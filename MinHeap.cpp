@@ -14,12 +14,12 @@ void MinHeap::heapify() {
             if (myArray[index] < myArray[(index / 2) - 1]) {
                 std::swap(myArray[index], myArray[(index / 2) - 1]);
                 index = (index/2) -1;
-            }
+            } else break;
         } else {
             if (myArray[index] < myArray[index / 2]) {
                 std::swap(myArray[index], myArray[index / 2]);
                 index = index/2;
-            }
+            }else break;
         }
 
 
