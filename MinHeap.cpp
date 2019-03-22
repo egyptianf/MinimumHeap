@@ -44,12 +44,13 @@ int MinHeap::pop() {
     int min = getMinimum();
     myArray[0] = myArray[myArray.size()-1];
     myArray.erase(myArray.end()-1);
-    //Top down approach for heapifying
     int i = 0;
     int leftChild, rightChild;
-    leftChild = (2*i) + 1;
     do
     {
+        leftChild = (2*i) + 1;
+        if(leftChild > myArray.size())
+             break;
         rightChild = leftChild + 1;
         //Compare with right and left children
         bool leftIsSmaller = myArray[leftChild] <= myArray[rightChild];
@@ -62,7 +63,6 @@ int MinHeap::pop() {
             i = rightChild;
         }
         else break;
-        leftChild = (2*i) + 1;
     }while(leftChild < myArray.size());
     return min;
 }

@@ -19,7 +19,16 @@ int main() {
 
 
     std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
-    std::cout << "Minimum of this array is: " << minheap->getMinimum() << std::endl;
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
+    minheap->insert(1);
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
+    std::cout << "Minimum of this array is: " << minheap->pop() << std::endl;
 
     std::cout << "Hello, World!" << std::endl;
 
