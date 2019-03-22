@@ -9,21 +9,17 @@ MinHeap::MinHeap()=default;
 void MinHeap::heapify() {
     unsigned long index;
     index = myArray.size() - 1;
-    while ((index + 1) > 0 && index != 0 ) {
+    while ( index != 0 ) {
         if (index % 2 == 0 ) {
             if (myArray[index] < myArray[(index / 2) - 1]) {
                 std::swap(myArray[index], myArray[(index / 2) - 1]);
                 index = (index/2) -1;
             }
-            else
-                break;
         } else {
             if (myArray[index] < myArray[index / 2]) {
                 std::swap(myArray[index], myArray[index / 2]);
                 index = index/2;
             }
-            else
-                break;
         }
 
 
@@ -48,8 +44,8 @@ int MinHeap::pop() {
     int min = getMinimum();
     myArray[0] = myArray[myArray.size()-1];
     myArray.erase(myArray.end()-1);
-
-    int i = 0;
+    heapify();
+/*    int i = 0;
     int leftChild, rightChild;
     do
     {
@@ -70,7 +66,7 @@ int MinHeap::pop() {
         }
         else
             break;
-    }while(leftChild < myArray.size());
+    }while(leftChild < myArray.size());*/
     return min;
 }
 
